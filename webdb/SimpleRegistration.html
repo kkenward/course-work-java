@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Simple Registration without Confirmation</title>
+</head>
+
+<body>
+
+<h2>
+Registration Page Example</h2>
+<p>
+Entering Data through the Web into the Database</p>
+<form action="SimpleRegistration" method="post">
+	<table style="width: 600px">
+		<tr>
+			<td>Last Name (required)</td>
+			<td><input name="lastName" type="text" /></td>
+		</tr>
+		<tr>
+			<td>First Name (required)</td>
+			<td><input name="firstName" type="text" /></td>
+		</tr>
+		<tr>
+			<td>MI</td>
+			<td><input name="mi" size="3" type="text" /></td>
+		</tr>
+		<tr>
+			<td>Telephone</td>
+			<td><input name="telephone" size="20" type="text" /></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input name="email" size="28" type="text" /></td>
+		</tr>
+		<tr>
+			<td>Street</td>
+			<td><input name="street" size="50" type="text" /></td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td><input name="city" size="23" type="text" /></td>
+		</tr>
+		<tr>
+			<td>State</td>
+			<td><select name="state" size="1">
+			<option value="MI">Michigan-MI</option>
+			<option value="GA">Georgia-GA</option>
+			<option value="OK">Oklahoma-OK</option>
+			<option value="IN">Indiana-IN</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>ZIP</td>
+			<td><input name="zip" size="9" type="text" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><input name="Submit" type="submit" value="Submit" /><input type="reset" value="Reset" /></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+
+</html>
